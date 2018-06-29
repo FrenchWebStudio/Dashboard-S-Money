@@ -15,12 +15,12 @@ footer {
 		transition: bottom .45s ease;
 
 		*zoom: 1;
-		background-image: linear-gradient(to right, #125b97 0%,#125b97 79%,#ffffff 80%,#ffffff 100%);
+		background-image: linear-gradient(to right, #9856b4 0%,#9856b4 79%,#ffffff 80%,#ffffff 100%);
 		background-size: 100%;
 
 		@include MQ(tablet) {
 			*zoom: 1;
-		    background-image: linear-gradient(to right, #125b97 0%, #125b97 100%);
+		    background-image: linear-gradient(to right, #9856b4 0%, #9856b4 100%);
 		    background-size: 100%;
 			position: static;
 			margin-top: 25px;

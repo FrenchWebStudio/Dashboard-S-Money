@@ -93,21 +93,33 @@ footer {
 				}
 			}
 
-			> a {
+			> .logo-footer, > a {
 				@include span(3.5 last of 12 inside no-gutters);
 				position: absolute;
 				right: 0;
 				height: 100%;
 				padding: 10px;
 				background-color: #fff;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
 
 				@include MQ(tablet) {
 					display: none;
 				}
 
 				img {
-					max-width: 200px;
+					max-width: 100px;
 				}
+                
+                img.logo-s-money{
+                    padding-bottom: 8px;
+                }
+                
+                p{
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
 			}
 		}
 	}
