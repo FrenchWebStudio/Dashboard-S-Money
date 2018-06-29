@@ -5,7 +5,7 @@
   "devDependencies": {
     "autoprefixer": "*",
     "css-mqpacker": "*",
-    "grunt": "*",
+    "grunt": "^1.0.3",
     "grunt-contrib-compass": "*",
     "grunt-contrib-concat": "*",
     "grunt-contrib-cssmin": "*",
